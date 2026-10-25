@@ -1,0 +1,8 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false   # needed so file uploads work through the Codespaces / reverse-proxy URL
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false

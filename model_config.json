@@ -1,0 +1,14 @@
+{
+  "model_name": "VGG16 fine-tuned",
+  "input_size": 224,
+  "threshold": 0.315,
+  "target_recall": 0.9,
+  "classes": [
+    "No pneumonia flagged",
+    "Pneumonia likely"
+  ],
+  "test_auc": 0.9145042659605767,
+  "test_recall_at_threshold": 0.8545454545454545,
+  "test_specificity_at_threshold": 0.8252427184466019,
+  "tf_version": "2.21.0"
+}
